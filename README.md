@@ -20,13 +20,6 @@ git clone https://github.com/0823pratik/aerovision-clear-skies-round2.git
 cd aerovision-ggm-2.0
 pip install -r requirements.txt
 
-## Key Thing:
-To run it, you need to have rf_model.pkl, right it is not there as it's size id of around 700 Mb,
-so for to download it, you can do this, 
-# Google Drive file ID extracted from your link
-[file_id = "1rbxsftxc3W8pevn5TMoZglntcZwd8UpI"
-download_url = f"https://drive.google.com/uc?id={file_id}"](https://drive.google.com/file/d/1rbxsftxc3W8pevn5TMoZglntcZwd8UpI/view?usp=sharing)
-From this link you can download it and load it models/trained_standalone/rf_model.pkl
 
 #### Running the Dashboard
 pip install -r requirements.txt
@@ -58,14 +51,14 @@ python -m streamlit run app.py
 
 
 ###  Architecture
+```
 AeroVision-GGM 2.0/
--├── Data Processing Layer (Multi-source ingestion)
--├── AI/ML Engine (Ensemble predictions)
--├── Spatial Intelligence (GIS processing)
--├── Visualization Layer (Interactive dashboard)
--└── Alert System (Risk-based notifications)
-
-
+├── Data Processing Layer (Multi-source ingestion)
+├── AI/ML Engine (Ensemble predictions)
+├── Spatial Intelligence (GIS processing)
+├── Visualization Layer (Interactive dashboard)
+└── Alert System (Risk-based notifications)
+```
 
 ###  Competitive Advantages
 1. **Real Data Authority**: Using 400k+ Google AirView+ records vs synthetic data
@@ -82,12 +75,14 @@ AeroVision-GGM 2.0/
 - **User-Centric**: Intuitive interface for all stakeholders
 
 ### Milestone 1 Achievements
+
 - Multi-source data integration (Google AirView+ processed)  
 - Advanced ensemble model training  
 - Interactive dashboard with heatmaps  
 - Risk assessment and alert system  
 - Hyperlocal prediction capability  
 - Production-ready architecture
+
 
 ###  Next Phase Roadmap
 - GDI meteorological data integration
