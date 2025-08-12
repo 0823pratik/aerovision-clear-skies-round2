@@ -1,0 +1,549 @@
+{
+  "training_timestamp": "2025-08-12 06:27:21",
+  "total_records": 399901,
+  "stations_count": 100,
+  "model_performance": {
+    "RMSE": 61.822338602595956,
+    "MAE": 47.05607892270124,
+    "MAPE": 65.69933806993365,
+    "R2": -1.11745431225952,
+    "MSE": 3822.001550294026
+  },
+  "feature_columns": [
+    "hour",
+    "day_of_week",
+    "month",
+    "day_of_year",
+    "is_rush_hour",
+    "is_weekend",
+    "is_night",
+    "AT",
+    "RH",
+    "CO2",
+    "distance_from_cyber_hub",
+    "location_cluster",
+    "PM2_5_to_PM10_ratio",
+    "temperature_humidity_index"
+  ],
+  "data_quality": {
+    "total_records": 400957,
+    "missing_values": {
+      "PM2_5": "2221",
+      "PM10": "17275",
+      "CO2": "18845",
+      "AT": "7848",
+      "RH": "468"
+    },
+    "missing_percentages": {
+      "PM2_5": 0.5539247350713418,
+      "PM10": 4.308442052389657,
+      "CO2": 4.700005237469354,
+      "AT": 1.9573171187932872,
+      "RH": 0.11672074561611344
+    },
+    "stations_with_issues": {
+      "Gurugram -  Kanhai Bijli Board": {
+        "missing_rate": 0.0165892501658925,
+        "total_records": 6028,
+        "status": "good"
+      },
+      "Gurugram - Bhondsi": {
+        "missing_rate": 0.02016535591853196,
+        "total_records": 4959,
+        "status": "good"
+      },
+      "Gurugram - Bhondsi Govt School ": {
+        "missing_rate": 0.0711743772241993,
+        "total_records": 4215,
+        "status": "good"
+      },
+      "Gurugram - Darbaripur Govt School ": {
+        "missing_rate": 0.037835792659856225,
+        "total_records": 5286,
+        "status": "good"
+      },
+      "Gurugram - Daulatbad School  ": {
+        "missing_rate": 0.01957713390759593,
+        "total_records": 5108,
+        "status": "good"
+      },
+      "Gurugram - Fazilpurb Jharsa Govt School ": {
+        "missing_rate": 0.03484320557491289,
+        "total_records": 5740,
+        "status": "good"
+      },
+      "Gurugram - Ghata Govt School": {
+        "missing_rate": 0.0,
+        "total_records": 6000,
+        "status": "good"
+      },
+      "Gurugram - Gwal Pahari Govt School ": {
+        "missing_rate": 1.6662809534829899,
+        "total_records": 4321,
+        "status": "good"
+      },
+      "Gurugram - Kadarpur Govt School ": {
+        "missing_rate": 0.022696323195642305,
+        "total_records": 4406,
+        "status": "good"
+      },
+      "Gurugram - Krishna Nagar budhera watar plant": {
+        "missing_rate": 0.0,
+        "total_records": 4900,
+        "status": "good"
+      },
+      "Gurugram - Manesar Polytechnic Collage ": {
+        "missing_rate": 0.0,
+        "total_records": 5963,
+        "status": "good"
+      },
+      "Gurugram - Manesar Village Govt School": {
+        "missing_rate": 0.0,
+        "total_records": 5726,
+        "status": "good"
+      },
+      "Gurugram - Marla Shivaji Nagar Police Station": {
+        "missing_rate": 0.10116337885685382,
+        "total_records": 5931,
+        "status": "good"
+      },
+      "Gurugram - Nurangpur Govt School": {
+        "missing_rate": 0.0,
+        "total_records": 5808,
+        "status": "good"
+      },
+      "Gurugram - Sector  14 ": {
+        "missing_rate": 37.404580152671755,
+        "total_records": 4192,
+        "status": "problematic"
+      },
+      "Gurugram - Sector 1": {
+        "missing_rate": 0.035229874933943986,
+        "total_records": 5677,
+        "status": "good"
+      },
+      "Gurugram - Sector 10": {
+        "missing_rate": 0.06701289998324678,
+        "total_records": 5969,
+        "status": "good"
+      },
+      "Gurugram - Sector 105": {
+        "missing_rate": 0.0,
+        "total_records": 5032,
+        "status": "good"
+      },
+      "Gurugram - Sector 11 ": {
+        "missing_rate": 0.017661603673613562,
+        "total_records": 5662,
+        "status": "good"
+      },
+      "Gurugram - Sector 11 - Colocation": {
+        "missing_rate": 0.35549235691432635,
+        "total_records": 2813,
+        "status": "good"
+      },
+      "Gurugram - Sector 113 ": {
+        "missing_rate": 0.0,
+        "total_records": 6131,
+        "status": "good"
+      },
+      "Gurugram - Sector 12": {
+        "missing_rate": 0.0,
+        "total_records": 5590,
+        "status": "good"
+      },
+      "Gurugram - Sector 14": {
+        "missing_rate": 0.0,
+        "total_records": 2834,
+        "status": "good"
+      },
+      "Gurugram - Sector 15": {
+        "missing_rate": 0.0,
+        "total_records": 6919,
+        "status": "good"
+      },
+      "Gurugram - Sector 15 ": {
+        "missing_rate": 0.0,
+        "total_records": 5415,
+        "status": "good"
+      },
+      "Gurugram - Sector 18": {
+        "missing_rate": 0.5826185466904029,
+        "total_records": 6179,
+        "status": "good"
+      },
+      "Gurugram - Sector 22 ": {
+        "missing_rate": 0.4876286797905003,
+        "total_records": 5537,
+        "status": "good"
+      },
+      "Gurugram - Sector 23A ": {
+        "missing_rate": 0.0,
+        "total_records": 2733,
+        "status": "good"
+      },
+      "Gurugram - Sector 38": {
+        "missing_rate": 0.0,
+        "total_records": 6063,
+        "status": "good"
+      },
+      "Gurugram - Sector 40": {
+        "missing_rate": 0.07630675314765357,
+        "total_records": 5242,
+        "status": "good"
+      },
+      "Gurugram - Sector 43": {
+        "missing_rate": 0.6321440942154486,
+        "total_records": 11548,
+        "status": "good"
+      },
+      "Gurugram - Sector 44": {
+        "missing_rate": 0.03673094582185491,
+        "total_records": 5445,
+        "status": "good"
+      },
+      "Gurugram - Sector 51": {
+        "missing_rate": 0.0649772579597141,
+        "total_records": 4617,
+        "status": "good"
+      },
+      "Gurugram - Sector 51_2": {
+        "missing_rate": 0.04214963119072709,
+        "total_records": 4745,
+        "status": "good"
+      },
+      "Gurugram - Sector 52": {
+        "missing_rate": 0.01977848101265823,
+        "total_records": 5056,
+        "status": "good"
+      },
+      "Gurugram - Sector 55 ": {
+        "missing_rate": 0.0,
+        "total_records": 4769,
+        "status": "good"
+      },
+      "Gurugram - Sector 56": {
+        "missing_rate": 0.01810610175629187,
+        "total_records": 5523,
+        "status": "good"
+      },
+      "Gurugram - Sector 57 ": {
+        "missing_rate": 0.04280821917808219,
+        "total_records": 2336,
+        "status": "good"
+      },
+      "Gurugram - Sector 65": {
+        "missing_rate": 0.04101722723543889,
+        "total_records": 4876,
+        "status": "good"
+      },
+      "Gurugram - Sector 68": {
+        "missing_rate": 0.033607797008906065,
+        "total_records": 5951,
+        "status": "good"
+      },
+      "Gurugram - Sector 7": {
+        "missing_rate": 0.0,
+        "total_records": 6075,
+        "status": "good"
+      },
+      "Gurugram - Sector 70": {
+        "missing_rate": 0.04935834155972359,
+        "total_records": 6078,
+        "status": "good"
+      },
+      "Gurugram - Sector 72 ": {
+        "missing_rate": 0.03529827038475115,
+        "total_records": 5666,
+        "status": "good"
+      },
+      "Gurugram - Sector 8": {
+        "missing_rate": 0.0,
+        "total_records": 6165,
+        "status": "good"
+      },
+      "Gurugram - Sector 8 ": {
+        "missing_rate": 0.0,
+        "total_records": 4847,
+        "status": "good"
+      },
+      "Gurugram - Sector 80": {
+        "missing_rate": 0.0,
+        "total_records": 6076,
+        "status": "good"
+      },
+      "Gurugram - Sector 81A": {
+        "missing_rate": 0.0,
+        "total_records": 5848,
+        "status": "good"
+      },
+      "Gurugram - Sector 82": {
+        "missing_rate": 0.0,
+        "total_records": 5978,
+        "status": "good"
+      },
+      "Gurugram - Sector 84": {
+        "missing_rate": 0.0,
+        "total_records": 2552,
+        "status": "good"
+      },
+      "Gurugram - Sector 85 ": {
+        "missing_rate": 0.0,
+        "total_records": 5338,
+        "status": "good"
+      },
+      "Gurugram - Sector 91": {
+        "missing_rate": 0.0,
+        "total_records": 5327,
+        "status": "good"
+      },
+      "Gurugram - Sector 92": {
+        "missing_rate": 0.0,
+        "total_records": 5861,
+        "status": "good"
+      },
+      "Gurugram - Sector 93": {
+        "missing_rate": 0.0,
+        "total_records": 5019,
+        "status": "good"
+      },
+      "Gurugram - Sihi Govt School ": {
+        "missing_rate": 0.0,
+        "total_records": 4311,
+        "status": "good"
+      },
+      "Gurugram - Silokhra Govt School": {
+        "missing_rate": 0.01854943424225561,
+        "total_records": 5391,
+        "status": "good"
+      },
+      "Gurugram - Tahsil Badshahpur": {
+        "missing_rate": 0.033461602810774635,
+        "total_records": 5977,
+        "status": "good"
+      },
+      "Gurugram - Teri gram ": {
+        "missing_rate": 0.0,
+        "total_records": 2953,
+        "status": "good"
+      },
+      "Gurugram - Ullawas Govt School": {
+        "missing_rate": 0.018158707100054475,
+        "total_records": 5507,
+        "status": "good"
+      },
+      "Gurugram -Narsinghpur Govt School ": {
+        "missing_rate": 0.02824060999717594,
+        "total_records": 3541,
+        "status": "good"
+      },
+      "Gurugram - Baliawas Govt School": {
+        "missing_rate": 0.0,
+        "total_records": 4997,
+        "status": "good"
+      },
+      "Gurugram - Sector 21": {
+        "missing_rate": 0.7391382729403281,
+        "total_records": 5547,
+        "status": "good"
+      },
+      "Gurugram - Sector 51 ": {
+        "missing_rate": 0.17683465959328026,
+        "total_records": 2262,
+        "status": "good"
+      },
+      "Gurugram - Sector 17": {
+        "missing_rate": 0.3976801988400994,
+        "total_records": 6035,
+        "status": "good"
+      },
+      "Gurugram-IMT Manesar ": {
+        "missing_rate": 0.0,
+        "total_records": 2156,
+        "status": "good"
+      },
+      "Gurugram - Sector 24": {
+        "missing_rate": 0.6709362610551998,
+        "total_records": 3279,
+        "status": "good"
+      },
+      "Gurugram - Garouli Khurd Govt School ": {
+        "missing_rate": 0.169527442254715,
+        "total_records": 4719,
+        "status": "good"
+      },
+      "Gurugram - Tigra Govt School ": {
+        "missing_rate": 0.03700277520814061,
+        "total_records": 5405,
+        "status": "good"
+      },
+      "Gurugram - Sector 95B": {
+        "missing_rate": 0.0,
+        "total_records": 5590,
+        "status": "good"
+      },
+      "Gurugram - Sector 88 ": {
+        "missing_rate": 4.67528051683101,
+        "total_records": 5882,
+        "status": "good"
+      },
+      "Gurugram - Shikohpur Village Govt School ": {
+        "missing_rate": 0.0,
+        "total_records": 4991,
+        "status": "good"
+      },
+      "Gurugram - Sector 52A": {
+        "missing_rate": 0.018494544109487702,
+        "total_records": 5407,
+        "status": "good"
+      },
+      "Gurugram - Jharsa Govt School ": {
+        "missing_rate": 0.09912440112340988,
+        "total_records": 6053,
+        "status": "good"
+      },
+      "Gurugram - Sector 11 - Colocation Vikas Sadan ": {
+        "missing_rate": 0.0,
+        "total_records": 1562,
+        "status": "good"
+      },
+      "Gurugram - Sector 15 police station ": {
+        "missing_rate": 0.0,
+        "total_records": 2857,
+        "status": "good"
+      },
+      "Gurugram - Sector 23A community centre": {
+        "missing_rate": 0.0,
+        "total_records": 3031,
+        "status": "good"
+      },
+      "Gurugram - Sector 51 Gurugram Collage ": {
+        "missing_rate": 0.0,
+        "total_records": 1775,
+        "status": "good"
+      },
+      "Gurugram Sector 5&6": {
+        "missing_rate": 0.0,
+        "total_records": 2185,
+        "status": "good"
+      },
+      "Gurugram - Sector 57 SDM office": {
+        "missing_rate": 0.0,
+        "total_records": 2553,
+        "status": "good"
+      },
+      "Gurugram - Sector 84 Community centre": {
+        "missing_rate": 0.0,
+        "total_records": 2530,
+        "status": "good"
+      },
+      "Gurugram - Sector 14 shuash chandar park": {
+        "missing_rate": 0.0,
+        "total_records": 2486,
+        "status": "good"
+      },
+      "Gurugram - IMT Manesar  Krishna society": {
+        "missing_rate": 0.0,
+        "total_records": 2152,
+        "status": "good"
+      },
+      "Gurugram - Rampura Govt School ": {
+        "missing_rate": 0.0,
+        "total_records": 256,
+        "status": "good"
+      },
+      "Gurugram - Sector 10A": {
+        "missing_rate": 0.0,
+        "total_records": 256,
+        "status": "good"
+      },
+      "Gurugram - Sector 29": {
+        "missing_rate": 0.0,
+        "total_records": 688,
+        "status": "good"
+      },
+      "Gurugram - Sector 31": {
+        "missing_rate": 0.0,
+        "total_records": 224,
+        "status": "good"
+      },
+      "Gurugram - Shitaka Mata Mandir ": {
+        "missing_rate": 0.0,
+        "total_records": 256,
+        "status": "good"
+      },
+      "Gurugram - Sector 24 aravali botanic park": {
+        "missing_rate": 0.0,
+        "total_records": 1247,
+        "status": "good"
+      },
+      "Sector 14 HSVP Administer office": {
+        "missing_rate": 0.0,
+        "total_records": 1155,
+        "status": "good"
+      },
+      "Gurugram - Sector 93 police station ": {
+        "missing_rate": 0.0,
+        "total_records": 1007,
+        "status": "good"
+      },
+      "Gurugram - Sector 8 IMT Manesar": {
+        "missing_rate": 0.0,
+        "total_records": 542,
+        "status": "good"
+      },
+      "Gurugram - Bhondsi Police Training ": {
+        "missing_rate": 0.0,
+        "total_records": 144,
+        "status": "good"
+      },
+      "Gurugram - Sector 52 Community centre": {
+        "missing_rate": 0.0,
+        "total_records": 119,
+        "status": "good"
+      },
+      "Village -Sikander Badha Govt School Sec 85": {
+        "missing_rate": 0.0,
+        "total_records": 152,
+        "status": "good"
+      },
+      "Village-Garhi Harshau Govt School Sec 95B": {
+        "missing_rate": 0.0,
+        "total_records": 144,
+        "status": "good"
+      },
+      "Gurugram - Sector 11 PWD Rest House": {
+        "missing_rate": 0.0,
+        "total_records": 77,
+        "status": "good"
+      },
+      "VillaBegampur khatola Sector 72 government school": {
+        "missing_rate": 0.0,
+        "total_records": 149,
+        "status": "good"
+      },
+      "Gurugram - Sector 51 Boosting station": {
+        "missing_rate": 0.0,
+        "total_records": 435,
+        "status": "good"
+      },
+      "Gurugram - Sector 55 Shushant University": {
+        "missing_rate": 0.0,
+        "total_records": 317,
+        "status": "good"
+      },
+      "Gurugram - Sector 65 police Station": {
+        "missing_rate": 0.0,
+        "total_records": 427,
+        "status": "good"
+      },
+      "Gurugram - Sector 15 MCG Old Committee": {
+        "missing_rate": 0.0,
+        "total_records": 153,
+        "status": "good"
+      }
+    }
+  },
+  "system_info": "AeroVision-GGM 2.0 - Standalone Training",
+  "expected_performance": "12.04 \u03bcg/m\u00b3 MAE (world-class)"
+}
