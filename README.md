@@ -49,13 +49,14 @@ python -m streamlit run app.py
 - Real-time alert and response system
 
 
-### 🏗️ Architecture
+###  Architecture
 AeroVision-GGM 2.0/
-├── Data Processing Layer (Multi-source ingestion)
-├── AI/ML Engine (Ensemble predictions)
-├── Spatial Intelligence (GIS processing)
-├── Visualization Layer (Interactive dashboard)
-└── Alert System (Risk-based notifications)
+-├── Data Processing Layer (Multi-source ingestion)
+-├── AI/ML Engine (Ensemble predictions)
+-├── Spatial Intelligence (GIS processing)
+-├── Visualization Layer (Interactive dashboard)
+-└── Alert System (Risk-based notifications)
+
 
 
 ###  Competitive Advantages
@@ -72,13 +73,13 @@ AeroVision-GGM 2.0/
 - **Scalable Design**: Pan-India expansion ready
 - **User-Centric**: Intuitive interface for all stakeholders
 
-###  Milestone 1 Achievements
-✅ Multi-source data integration (Google AirView+ processed)
-✅ Advanced ensemble model training
-✅ Interactive dashboard with heatmaps
-✅ Risk assessment and alert system
-✅ Hyperlocal prediction capability
-✅ Production-ready architecture
+### Milestone 1 Achievements
+- Multi-source data integration (Google AirView+ processed)  
+- Advanced ensemble model training  
+- Interactive dashboard with heatmaps  
+- Risk assessment and alert system  
+- Hyperlocal prediction capability  
+- Production-ready architecture
 
 ###  Next Phase Roadmap
 - GDI meteorological data integration
