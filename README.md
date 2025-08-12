@@ -17,16 +17,17 @@ You can view deployed website at: https://aerovision-milestone-01.streamlit.app/
 - Git
 
 #### Installation
-
-- git clone https://github.com/0823pratik/aerovision-clear-skies-round2.git
-- cd aerovision-ggm-2.0
-- pip install -r requirements.txt
-
+```
+ git clone https://github.com/0823pratik/aerovision-clear-skies-round2.git
+ cd aerovision-ggm-2.0
+ pip install -r requirements.txt
+```
 
 #### Running the Dashboard
-- pip install -r requirements.txt
-- python -m streamlit run app.py
-
+```
+ pip install -r requirements.txt
+ python -m streamlit run app.py
+```
 
 ### Data Sources
 1. **Google AirView+ Dataset**: 400k+ real-time sensor readings
