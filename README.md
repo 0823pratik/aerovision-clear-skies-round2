@@ -20,6 +20,14 @@ git clone https://github.com/0823pratik/aerovision-clear-skies-round2.git
 cd aerovision-ggm-2.0
 pip install -r requirements.txt
 
+## Key Thing:
+To run it, you need to have rf_model.pkl, right it is not there as it's size id of around 700 Mb,
+so for to download it, you can do this, 
+# Google Drive file ID extracted from your link
+[file_id = "1rbxsftxc3W8pevn5TMoZglntcZwd8UpI"
+download_url = f"https://drive.google.com/uc?id={file_id}"](https://drive.google.com/file/d/1rbxsftxc3W8pevn5TMoZglntcZwd8UpI/view?usp=sharing)
+From this link you can download it and load it models/trained_standalone/rf_model.pkl
+
 #### Running the Dashboard
 pip install -r requirements.txt
 python -m streamlit run app.py
